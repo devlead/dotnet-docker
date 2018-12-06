@@ -27,8 +27,8 @@ function Exec {
     }
 }
 
-$windowsImageBuilder = 'microsoft/dotnet-buildtools-prereqs:image-builder-nanoserver-20181022125001'
-$linuxImageBuilder = 'microsoft/dotnet-buildtools-prereqs:image-builder-debian-20181022195013'
+$windowsImageBuilder = 'microsoft/dotnet-buildtools-prereqs:image-builder-nanoserver-20181211132441'
+$linuxImageBuilder = 'microsoft/dotnet-buildtools-prereqs:image-builder-debian-20181211212452'
 $imageBuilderContainerName = "ImageBuilder-$(Get-Date -Format yyyyMMddhhmmss)"
 
 pushd $PSScriptRoot
